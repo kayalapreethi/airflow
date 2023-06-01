@@ -27,7 +27,7 @@ with DAG(
             emp_id integer, 
             emp_name character varying(10)
             );
-            INSERT INTO new_emp 
+            INSERT INTO new
             select * from new_emp;
             '''
     )
